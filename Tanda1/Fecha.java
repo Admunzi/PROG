@@ -103,7 +103,7 @@ public class Fecha {
 
   @Override
   public String toString() {
-    return "Fecha: " + this.dia + " de " + this.mes + " de " + this.anio;
+    return this.dia + " de " + this.mes + " de " + this.anio;
   }
 
   // Comprobamos que es correcto la fecha
